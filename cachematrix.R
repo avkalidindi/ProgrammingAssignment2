@@ -32,7 +32,7 @@ cacheSolve <- function(x, ...) {
     inv_mat <- x$get_inverse()
     
     if(!is.null(inv_mat)){
-      print("Returning Cached Inverse")
+      ## Returning Cached Inverse
       return(inv_mat)
     }
     
